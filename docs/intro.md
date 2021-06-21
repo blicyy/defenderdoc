@@ -4,32 +4,30 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Defender in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **adding it to your server**.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+Or **try Defender immediately** with **[new.defenderbot.tk](https://new.defenderbot.tk)**.
 
 ## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**:
+Generate a new Defender config using the **classic template**:
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+?setup classic
 ```
 
-## Start your site
+## Configure the settings
 
-Run the development server:
+View/set the configurations:
 
 ```shell
-cd my-website
-
-npx docusaurus start
+?config
 ```
 
-Your site starts at `http://localhost:3000`.
+Your server is now protected!
 
 Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.

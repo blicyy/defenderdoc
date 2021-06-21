@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Defender',
   tagline: 'Protecting discord servers',
-  url: 'https://defender.tk',
+  url: 'https://defenderbot.tk',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -50,12 +50,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/defender',
+              href: 'https://discordapp.com/invite/defenderbot',
             },
             {
               label: 'Twitter',
@@ -92,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/blicyy/defenderdoc/edit/master/docs/',
+            'https://github.com/blicyy/defenderdoc/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/blicyy/defenderdoc/edit/master/blog/',
+            'https://github.com/blicyy/defenderdoc/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
